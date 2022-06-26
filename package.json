@@ -1,0 +1,35 @@
+{
+  "name": "mom-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/respectAnthony/mom-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/respectAnthony/mom-blog/issues"
+  },
+  "homepage": "https://github.com/respectAnthony/mom-blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "html": "^1.0.0",
+    "marked": "^4.0.17",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.0",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
